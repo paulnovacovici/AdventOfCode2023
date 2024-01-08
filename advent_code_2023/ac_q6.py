@@ -1,5 +1,5 @@
 def parse_file():
-    lines = open("av_q6.txt", "r").readlines()
+    lines = open("ac_q6.txt", "r").readlines()
     times = map(
         lambda x: int(x),
         filter(

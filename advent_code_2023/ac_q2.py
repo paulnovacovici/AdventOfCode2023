@@ -34,7 +34,7 @@ def process_game_data(picks: list[dict]):
 
 
 def part1():
-    with open("av_q2.txt", "r") as file:
+    with open("ac_q2.txt", "r") as file:
         acc = 0
         results = {"red": 12, "green": 13, "blue": 14}
         for line in file:
@@ -51,7 +51,7 @@ def part1():
 
 
 def part2():
-    with open("av_q2.txt", "r") as file:
+    with open("ac_q2.txt", "r") as file:
         acc = 0
         for line in file:
             game_num, picks = parse_line(line)

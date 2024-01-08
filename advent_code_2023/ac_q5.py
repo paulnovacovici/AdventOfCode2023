@@ -27,7 +27,7 @@ def create_map_range_from_line(line: str) -> MapRange:
 
 
 def parse_file2() -> tuple[list[int], list[list[MapRange]]]:
-    lines = open("av_q5.txt", "r").read()
+    lines = open("ac_q5.txt", "r").read()
     segments = lines.split("\n\n")
     _, seed_ids = segments[0].split(":")
     seeds = [int(seed.strip()) for seed in seed_ids.strip().split(" ")]
@@ -47,7 +47,7 @@ def parse_file2() -> tuple[list[int], list[list[MapRange]]]:
 
 
 def parse_file() -> dict[int, int]:
-    with open("av_q5.txt", "r") as file:
+    with open("ac_q5.txt", "r") as file:
         ret = {}
         seeds = file.readline()
         _, seed_ids = seeds.split(":")

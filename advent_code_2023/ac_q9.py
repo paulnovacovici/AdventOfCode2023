@@ -1,5 +1,5 @@
 def parse_file():
-    lines = open("av_q9.txt", "r").read().split("\n")
+    lines = open("ac_q9.txt", "r").read().split("\n")
 
     return list(
         map(lambda line: list(map(lambda x: int(x), line.strip().split(" "))), lines)

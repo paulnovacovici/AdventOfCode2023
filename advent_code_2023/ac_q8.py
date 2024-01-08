@@ -3,7 +3,7 @@ from math import lcm
 
 
 def parse_file():
-    lines = open("av_q8.txt", "r").readlines()
+    lines = open("ac_q8.txt", "r").readlines()
     inst = lines[0].strip()
     graph = {}
 

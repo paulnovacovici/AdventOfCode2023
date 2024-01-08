@@ -73,7 +73,7 @@ def process_line(tree, line):
 
 def process_file():
     tree = create_tree(new_nums)
-    with open("av_q1.txt", "r") as file:
+    with open("ac_q1.txt", "r") as file:
         acc = 0
         for line in file:
             # Process each line here

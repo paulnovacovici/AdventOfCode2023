@@ -27,7 +27,7 @@ card_map = {
 
 
 def parse_file():
-    lines = open("av_q7.txt", "r").readlines()
+    lines = open("ac_q7.txt", "r").readlines()
     games = []
     for line in lines:
         game = line.strip().split(" ")

@@ -6,7 +6,7 @@ def find_all_numbers(s: str) -> list[int]:
 
 
 def parse_file() -> list[list[str]]:
-    with open("av_q4.txt", "r") as file:
+    with open("ac_q4.txt", "r") as file:
         ret = []
         for line in file:
             line = line.strip()

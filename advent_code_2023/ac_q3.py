@@ -2,7 +2,7 @@ from functools import reduce
 
 
 def parse_file() -> list[list[str]]:
-    with open("av_q3.txt", "r") as file:
+    with open("ac_q3.txt", "r") as file:
         ret = []
         for line in file:
             line = line.strip()
